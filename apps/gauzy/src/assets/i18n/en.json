@@ -126,7 +126,8 @@
 			"ENABLE_DISABLE_INVITES": "Enable/Disable Invites",
 			"ALLOW_USER_INVITES": "Allow Users to send invites",
 			"INVITE_EXPIRY_PERIOD": "Invite Expiry Period (in Days)",
-			"EMPLOYEE_TYPE": "Employee Type"
+			"EMPLOYEE_TYPE": "Employee Type",
+			"ADD_NEW_EMPLOYMENT_TYPE": "Add New Employee Type"
 		},
 		"PLACEHOLDERS": {
 			"NAME": "Name",
@@ -380,6 +381,7 @@
 		"SETTINGS": "Settings",
 		"ROLES": "Roles",
 		"RECURRING_EXPENSE": "Organization Recurring Expense",
+		"EMPLOYMENT_TYPES": "Employment Types",
 		"EDIT": {
 			"HEADER": "Manage",
 			"CLIENT": "Client",
@@ -408,7 +410,8 @@
 			"CLICK_EMPLOYEE": "Click to edit employee",
 			"EDIT_PROJECT": "Edit Project",
 			"REGIONS": "Regions",
-			"ROLES_PERMISSIONS": "Roles & Permissions"
+			"ROLES_PERMISSIONS": "Roles & Permissions",
+			"EMPLOYEE_TYPES": "Employee Types"
 		},
 		"PERMISSIONS": {
 			"ADMIN_DASHBOARD_VIEW": "View Admin Dashboard",
@@ -620,7 +623,8 @@
 			"EMAIL_REQUIRED": "Email is required!",
 			"EMAIL_SHOULD_BE_REAL": "Email should be a real one!",
 			"PHONE_REQUIRED": "Phone is required!",
-			"PHONE_CONTAINS_ONLY_NUMBERS": "Phone should only contain numbers!"
+			"PHONE_CONTAINS_ONLY_NUMBERS": "Phone should only contain numbers!",
+			"DELETE_EMPLOYEE_TYPE": "Delete Employee Type"
 		}
 	},
 	"ACCEPT_INVITE": {
@@ -702,7 +706,7 @@
 				"REMOVE_CLIENT": "Client {{ name }} successfully removed!",
 				"INVALID_CLIENT_DATA": "Please check the Name, Primary Email and Primary Phone of your client"
 			},
-			"EDIT_ORGANIZATIONS_EMPLOYEE_TYPE": {
+			"EDIT_ORGANIZATIONS_EMPLOYEE_TYPES": {
 				"ADD_EMPLOYEE_TYPE": "New employee type {{ name }} successfully added!",
 				"REMOVE_EMPLOYEE_TYPE": "Employee type {{ name }} successfully removed!",
 				"INVALID_EMPLOYEE_TYPE": "Please check the type name of your employee type"

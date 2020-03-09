@@ -388,6 +388,7 @@
 			"PROJECTS": "Проекты",
 			"DEPARTMENT_NAME": "Название отдела",
 			"POSITION_NAME": "Название должности",
+			"EMPLOYEE_TYPES": "Типы сотрудников",
 			"NEW_PROJECT": "Добавить новый проект",
 			"START_DATE": "Дата начала",
 			"END_DATE": "Дата окончания",
@@ -684,6 +685,12 @@
 				"ADD_POSITION": "Новая позиция {{ name }} успешно добавлена!",
 				"REMOVE_POSITION": "Должность {{ name }} успешно удалена!",
 				"INVALID_POSITION_NAME": "Пожалуйста, добавьте название позиции"
+			},
+			"EDIT_ORGANIZATIONS_EMPLOYEE_TYPES": {
+				"ADD_EMPLOYEE_TYPE": "New Employee type {{ name }} successfully added!",
+				"REMOVE_EMPLOYEE_TYPE": "Employee type {{ name }} successfully removed!",
+				"UPDATE_EMPLOYEE_TYPE": "Employee type {{ name }} successfully updated!",
+				"INVALID_EMPLOYEE_TYPE_NAME": "Please add a Employee type name"
 			},
 			"EDIT_ORGANIZATIONS_DEPARTMENTS": {
 				"ADD_DEPARTMENT": "{{ name }} Департамент успешно добавлен!",
