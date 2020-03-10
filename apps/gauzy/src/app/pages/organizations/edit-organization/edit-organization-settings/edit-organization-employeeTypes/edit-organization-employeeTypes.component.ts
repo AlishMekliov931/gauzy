@@ -70,6 +70,14 @@ export class EditOrganizationEmployeeTypes implements OnInit, OnDestroy {
 			.addEmpType(newEmpType)
 			.pipe(takeUntil(this._ngDestroy$))
 			.subscribe((data) => {
+				const message = this.translateService.instant(
+					'TOASTR.MESSAGE.ADD_EMPLOYEE_TYPE',
+					{ name: name }
+				);
+				const succes = this.translateService.instant(
+					'TOASTR.TITLE.SUCCESS'
+				);
+				this.toastrService.primary(message, succes);
 				this.empTypes.push(data);
 			});
 		this.form.reset();
@@ -108,7 +116,7 @@ export class EditOrganizationEmployeeTypes implements OnInit, OnDestroy {
 		try {
 			await this.organizationEmpTypesService.update(empType);
 			const message = this.translateService.instant(
-				'TOASTR.MESSAGE.UPADTED_EMPLOYEE_TYPE'
+				'TOASTR.MESSAGE.UPDATE_EMPLOYEE_TYPE'
 			);
 			const succes = this.translateService.instant(
 				'TOASTR.TITLE.SUCCESS'

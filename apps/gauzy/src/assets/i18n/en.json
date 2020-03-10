@@ -624,7 +624,9 @@
 			"EMAIL_SHOULD_BE_REAL": "Email should be a real one!",
 			"PHONE_REQUIRED": "Phone is required!",
 			"PHONE_CONTAINS_ONLY_NUMBERS": "Phone should only contain numbers!",
-			"DELETE_EMPLOYEE_TYPE": "Delete Employee Type"
+			"DELETE_EMPLOYEE_TYPE": "Delete Employee Type {{ name }}",
+			"UPDATE_EMPLOYEE_TYPE": "Employee Type {{ name }} has been updated",
+			"ADD_EMPLOYEE_TYPE": "New employee type {{ name }} successfully added!"
 		}
 	},
 	"ACCEPT_INVITE": {
@@ -705,11 +707,6 @@
 				"ADD_CLIENT": "New client {{ name }} successfully added!",
 				"REMOVE_CLIENT": "Client {{ name }} successfully removed!",
 				"INVALID_CLIENT_DATA": "Please check the Name, Primary Email and Primary Phone of your client"
-			},
-			"EDIT_ORGANIZATIONS_EMPLOYEE_TYPES": {
-				"ADD_EMPLOYEE_TYPE": "New employee type {{ name }} successfully added!",
-				"REMOVE_EMPLOYEE_TYPE": "Employee type {{ name }} successfully removed!",
-				"INVALID_EMPLOYEE_TYPE": "Please check the type name of your employee type"
 			}
 		},
 		"DANGER_ZONE": {
