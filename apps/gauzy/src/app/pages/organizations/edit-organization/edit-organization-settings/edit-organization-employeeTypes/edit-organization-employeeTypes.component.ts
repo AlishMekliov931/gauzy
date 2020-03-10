@@ -113,10 +113,12 @@ export class EditOrganizationEmployeeTypes implements OnInit, OnDestroy {
 	}
 
 	async update(empType) {
+		console.log(empType);
 		try {
 			await this.organizationEmpTypesService.update(empType);
 			const message = this.translateService.instant(
-				'TOASTR.MESSAGE.UPDATE_EMPLOYEE_TYPE'
+				'TOASTR.MESSAGE.UPDATE_EMPLOYEE_TYPE',
+				{ name: empType.name }
 			);
 			const succes = this.translateService.instant(
 				'TOASTR.TITLE.SUCCESS'
