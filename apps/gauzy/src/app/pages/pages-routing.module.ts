@@ -116,6 +116,13 @@ const routes: Routes = [
 				// }
 			},
 			{
+				path: 'public-page',
+				loadChildren: () =>
+					import('./public-page/public-page.module').then(
+						(m) => m.PublicPageModule
+					)
+			},
+			{
 				path: 'employees',
 				loadChildren: () =>
 					import('./employees/employees.module').then(

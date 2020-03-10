@@ -256,6 +256,7 @@
 		"USERS": "Users",
 		"ROLES": "Roles & Permissions",
 		"DANGER_ZONE": "Danger Zone",
+		"PUBLIC_PAGE": "Public Page",
 		"IMPORT_EXPORT": {
 			"IMPORT_EXPORT": "Import/Export",
 			"IMPORT": "Import",
@@ -580,6 +581,9 @@
 	},
 	"ABOUT_PAGE": {
 		"ABOUT": "About"
+	},
+	"PUBLIC_PAGE": {
+		"PUBLIC_PAGE": "Public Page"
 	},
 	"FOOTER": {
 		"BY": "by",

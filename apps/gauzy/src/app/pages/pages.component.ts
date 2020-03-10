@@ -267,6 +267,16 @@ export class PagesComponent implements OnInit, OnDestroy {
 					}
 				}
 			]
+		},
+		{
+			title: 'Public Page',
+			icon: 'droplet-outline',
+			link: '/pages/public-page',
+			data: {
+				translated: false,
+				translationKey: 'MENU.PUBLIC_PAGE',
+				permissionKeys: [PermissionsEnum.POLICY_VIEW]
+			}
 		}
 	];
 
